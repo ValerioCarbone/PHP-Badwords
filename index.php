@@ -7,6 +7,7 @@
 </head>
 <body>
     <form action="word_censor.php" method="POST">
+        <label for="replace_word">Inserisci la parola da censurare</label>
         <input type="text" name="replace_word">
     </form>
 </body>
