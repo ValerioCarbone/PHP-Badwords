@@ -1,8 +1,7 @@
 <?php
-$replace_word = $_POST["replace_word"];
-$text = $_POST["text_to_censor"];
+$replace_word = $_POST["word"];
+$text = $_POST["text"];
 $censored_text = str_ireplace($replace_word, '***', $text);
-
 ?>
 
 
